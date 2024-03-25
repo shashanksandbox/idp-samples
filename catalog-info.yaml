@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-new-service
-  description: Description of my new service
+  name: my-demo-service
+  description: This is a demo service for creating a service catalog.
   annotations:
     backstage.io/techdocs-ref: dir:.
     pagerduty.com/integration-key: <sample-service-integration-key>
