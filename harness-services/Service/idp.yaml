@@ -1,0 +1,17 @@
+kind: Component
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: idp
+  annotations:
+    harness.io/project-url-qa: https://qa.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/home/orgs/default1/projects/Sarthak_Test/details
+    harness.io/cd-serviceId: idp
+    harness.io/services: |
+      idp: https://qa.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default1/projects/Sarthak_Test/services/idp
+  title: idp
+  tags: []
+spec:
+  type: Service
+  lifecycle: Unknown
+  owner: Unknown
+  domain: default1
+  system: Sarthak_Test
