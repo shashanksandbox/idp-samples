@@ -26,7 +26,7 @@ pipeline:
                   spec:
                     connectorType: Github
                     connectorRef: account.Shashank_github_connector
-                    organization: <+input>
+                    organization: shashank-idp-org
                     repository: newrepo_idp_automation
                     repoType: public
                     description: automatically created through IDP
