@@ -26,10 +26,16 @@ pipeline:
                   spec:
                     connectorType: Github
                     connectorRef: account.Shashank_github_connector
-                    organization: shashank-idp-org
+                    organization: <+pipeline.variables.github_org_name>
                     repository: newrepo_idp_automation
                     repoType: public
                     description: automatically created through IDP
                     defaultBranch: main
                     personalAccount: false
         tags: {}
+  variables:
+    - name: github_org_name
+      type: String
+      description: ""
+      required: true
+      value: <+input>
